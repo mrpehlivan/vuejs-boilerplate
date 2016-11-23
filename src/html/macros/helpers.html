@@ -1,0 +1,16 @@
+{% macro css(stylesheet) %}
+<link rel="stylesheet" type="text/css" href="stylesheets/{{ stylesheet }}">
+{% endmacro %}
+
+{% macro js(javascript) %}
+<script src="javascripts/{{ javascript }}"></script>
+{% endmacro %}
+
+
+{% macro sprite(id, viewBox, classes) %}
+  {% set viewBox = viewBox or "0 0 1 1"%}
+  <span class='sprite -{{id}} {{classes}}'>
+    <svg viewBox="{{viewBox}}"></use></svg>
+  </span>
+{% endmacro %}
+
