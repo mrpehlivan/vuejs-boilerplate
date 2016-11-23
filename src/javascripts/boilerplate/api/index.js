@@ -8,3 +8,17 @@ export default {
         return testResources.save({testId:testId},data);
     }
 }
+
+/***
+  Resource.actions = {
+
+    get: {method: 'GET'},
+    save: {method: 'POST'},
+    query: {method: 'GET'},
+    update: {method: 'PUT'},
+    remove: {method: 'DELETE'},
+    delete: {method: 'DELETE'}
+
+};
+
+ ***/
