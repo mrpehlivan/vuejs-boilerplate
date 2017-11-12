@@ -1,5 +1,7 @@
 # vue-js boilerplate
 
+You can check [Vue 2.0 boilerplate ](https://github.com/mrpehlivan/vue-2.0-boilerplate) . Because this project is old.
+
 For quick startup
 ```bash
 git clone https://github.com/mrpehlivan/vuejs-boilerplate.git
